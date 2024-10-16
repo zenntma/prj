@@ -5,169 +5,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="fung/style.css" />
     <title>RME SRAGEN</title>
   </head>
-  <body>
-    <nav class="navbar shadow navbar-expand-lg sticky-top py-3 bg-light">
-      <div class="container-fluid mx-3">
-        <a class="navbar-brand" href="index.html">RME SRAGEN</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="profil.html">Profil</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" style="display: block" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Layanan </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="kalkubmi.html">BMI Kalkulator</a></li>
-                <li><a class="dropdown-item" href="pendaftaran.html">Pendaftaran</a></li>
-                <li><a class="dropdown-item" href="lynbidan.html">Layanan Bidan</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" style="display: block" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Informasi </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="jadwalpel.html">Jadwal Pelayanan</a></li>
-                <li><a class="dropdown-item" href="jadwaldok.html">Jadwal Dokter</a></li>
-                <li><a class="dropdown-item" href="dataposyandu.html">Data Posyandu</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="artikel.html">Artikel</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="kontak.html">Kontak</a>
-            </li>
-            <li class="nav-item"></li>
-            <a class="btn btn-primary btn-sm my-auto" href="login.html" role="button">Login</a>
-          </ul>
+  <body class="mx-auto small">
+    <!-- dekstop only -->
+    <div class="desktop-only">
+      <div class="container text-center mt-5">
+        <div class="alert alert-danger" role="alert">
+          <h4 class="alert-heading">Peringatan!</h4>
+          <p>Halaman ini hanya dapat diakses dari perangkat seluler.</p>
+          <hr />
+          <p class="mb-0">Silakan buka menggunakan smartphone Anda untuk pengalaman terbaik.</p>
         </div>
       </div>
-    </nav>
-
-    <!-- konten -->
-    <div class="py-4 bg-warning px-4 small">
-      <nav class="">
-        <ol class="breadcrumb my-auto">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Informasi</li>
-          <li class="breadcrumb-item" aria-current="page">Jadwal Dokter</li>
-        </ol>
-      </nav>
     </div>
+    <!-- dekstop only -->
 
-    <section class="section">
-      <div class="containerm mx-4 my-5">
-        <h4 class="text-center mb-4">Jadwal Dokter</h4>
-        <div class="table-responsive">
-          <!-- Tabel Jadwal Dokter -->
-          <table class="table table-bordered table-sm small table-striped">
-            <thead class="table-primary">
-              <tr>
-                <th scope="col">No</th>
-                <th scope="col">Nama Dokter</th>
-                <th scope="col">Hari</th>
-                <th scope="col">Waktu</th>
-                <th scope="col">Lokasi</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Dr. Andi</td>
-                <td>Senin</td>
-                <td>08:00 - 12:00</td>
-                <td>Posyandu Melati, Jl. Raya No. 5, Desa Sukamaju</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Dr. Budi</td>
-                <td>Selasa</td>
-                <td>09:00 - 13:00</td>
-                <td>Posyandu Mawar, Jl. Kebon Jeruk No. 12, Desa Sejahtera</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Dr. Citra</td>
-                <td>Rabu</td>
-                <td>10:00 - 14:00</td>
-                <td>Posyandu Anggrek, Jl. Merdeka No. 8, Desa Harapan</td>
-              </tr>
-            </tbody>
-          </table>
+    <!-- mobile only -->
+    <div class="mobile-only">
+      <nav class="navbar shadow navbar-expand-lg sticky-top py-3 bg-light">
+        <div class="container-fluid mx-3">
+          <a class="navbar-brand" href="index.html">RME SRAGEN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="profil.html">Profil</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="display: block" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Layanan </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="kalkubmi.html">BMI Kalkulator</a></li>
+                  <li><a class="dropdown-item" href="pendaftaran.html">Pendaftaran</a></li>
+                  <li><a class="dropdown-item" href="lynbidan.html">Layanan Bidan</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="display: block" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Informasi </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="jadwalpel.html">Jadwal Pelayanan</a></li>
+                  <li><a class="dropdown-item" href="jadwaldok.html">Jadwal Dokter</a></li>
+                  <li><a class="dropdown-item" href="dataposyandu.html">Data Posyandu</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="artikel.html">Artikel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kontak.html">Kontak</a>
+              </li>
+              <li class="nav-item"></li>
+              <a class="btn btn-primary btn-sm my-auto" href="login.html" role="button">Login</a>
+            </ul>
+          </div>
         </div>
-        <nav aria-label="Page navigation example">
-          <ul class="pagination justify-content-center mt-4 pagination-sm">
-            <li class="page-item disabled">
-              <a class="page-link">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#">Next</a>
-            </li>
-          </ul>
+      </nav>
+
+      <!-- konten -->
+      <div class="py-4 bg-warning px-4 small">
+        <nav class="">
+          <ol class="breadcrumb my-auto">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Informasi</li>
+            <li class="breadcrumb-item" aria-current="page">konsultasi Online</li>
+          </ol>
         </nav>
       </div>
-    </section>
 
-    <!-- konten -->
-
-    <footer class="text-center bg-warning">
-      <div class="container footer-top py-5">
-        <div class="row gy-4">
-          <!-- About Section -->
-          <div class="col-lg-4 col-md-6 footer-about col-sm-justify-content-center">
-            <a href="index.php" class="text-decoration-none fs-3 fw-semibold align-items-center">
-              <span class="sitename">Puskesmas Sragen</span>
-            </a>
-            <div class="footer-contact pt-3">
-              <p>Jl. Kramat Sawah VII</p>
-              <p>Paseban, Kec. Sragen</p>
-              <p class="mt-3"><strong>Phone :</strong> <span>021 -3146194</span></p>
-              <p><strong>Email :</strong> <span>puskesmaskecsragen@sragen.go.id</span></p>
+      <section class="section mb-5">
+        <div class="row mx-3 mt-5 pb-5">
+          <h4 class="text-center mb-3">Form Konsultasi Online</h4>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda" required />
             </div>
-          </div>
-
-          <!-- Social Media Section -->
-          <div class="col-lg-4 col-md-12 text-sm-justify-content-center">
-            <h4>Ikuti Kami</h4>
-            <p>Dapatkan Informasi terbaru seputar layanan Puskesmas Sragen melalui platform berikut</p>
-            <div class="social-links d-flex justify-content-center gap-3">
-              <a href="#" class="twitter" title="Youtube"><i class="bi bi-youtube"></i></a>
-              <a href="#" class="facebook" title="Facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram" title="Instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin" title="TikTok"><i class="bi bi-tiktok"></i></a>
-              <a href="#" class="website" title="Website"><i class="bi bi-globe"></i></a>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda" required />
             </div>
-          </div>
+            <div class="mb-3">
+              <label for="doctor" class="form-label">Pilih Dokter</label>
+              <select class="form-select" id="doctor" required>
+                <option value="">Pilih Dokter</option>
+                <option value="Dr. Andi">Dr. Andi</option>
+                <option value="Dr. Budi">Dr. Budi</option>
+                <option value="Dr. Citra">Dr. Citra</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="day" class="form-label">Hari Konsultasi</label>
+              <input type="date" class="form-control" id="day" required />
+            </div>
+            <div class="mb-3">
+              <label for="time" class="form-label">Waktu Konsultasi</label>
+              <input type="time" class="form-control" id="time" required />
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Kirim Konsultasi</button>
+          </form>
+        </div>
+      </section>
 
-          <!-- Map Section -->
-          <div class="col-lg-4 col-md-12 footer-links">
-            <h4>Lokasi Puskesmas Sragen</h4>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63305.55620400067!2d110.9785024432851!3d-7.398941658305224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a03748cedd097%3A0x87e93bc0a5fab4ce!2sKec.%20Sragen%2C%20Kabupaten%20Sragen%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1728717836636!5m2!1sid!2sid"
-              width="100%"
-              height="200"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+      <!-- konten -->
+
+      <footer class="text-center bg-warning">
+        <div class="px-4 footer-top">
+          <div class="row py-4">
+            <!-- About Section -->
+            <div class="col-lg-4 col-md-6 footer-about col-sm-justify-content-center">
+              <a href="index.php" class="text-decoration-none fs-5 fw-semibold align-items-center">
+                <span class="sitename">Puskesmas Sragen</span>
+              </a>
+              <div class="footer-contact pt-3">
+                <p>Jl. Kramat Sawah VII</p>
+                <p>Paseban, Kec. Sragen</p>
+                <p class="mt-3"><strong>Phone :</strong> <span>021 -3146194</span></p>
+                <p><strong>Email :</strong> <span>puskesmaskecsragen@sragen.go.id</span></p>
+              </div>
+            </div>
+
+            <!-- Social Media Section -->
+            <div class="col-lg-4 pt-3 col-md-12 text-sm-justify-content-center">
+              <h5>Ikuti Kami</h5>
+              <p>Dapatkan Informasi terbaru seputar layanan Puskesmas Sragen melalui platform berikut</p>
+              <div class="social-links d-flex justify-content-center gap-3">
+                <a href="#" class="twitter" title="Youtube"><i class="bi bi-youtube"></i></a>
+                <a href="#" class="facebook" title="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram" title="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin" title="TikTok"><i class="bi bi-tiktok"></i></a>
+                <a href="#" class="website" title="Website"><i class="bi bi-globe"></i></a>
+              </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="col-lg-4 pt-3 col-md-12 footer-links">
+              <h5>Lokasi Puskesmas Sragen</h5>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63305.55620400067!2d110.9785024432851!3d-7.398941658305224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a03748cedd097%3A0x87e93bc0a5fab4ce!2sKec.%20Sragen%2C%20Kabupaten%20Sragen%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1728717836636!5m2!1sid!2sid"
+                width="100%"
+                height="200"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      </footer>
+    </div>
+    <!-- mobile only -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="fung/private.js"></script>
   </body>
 </html>

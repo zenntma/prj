@@ -1,0 +1,39 @@
+.mobile-only {
+  display: block; /* Tampilkan pada tampilan seluler */
+}
+.desktop-only {
+  display: none; /* Sembunyikan pada tampilan seluler */
+}
+
+@media (min-width: 768px) {
+  .mobile-only {
+    display: none; /* Sembunyikan pada tampilan desktop */
+  }
+  .desktop-only {
+    display: block; /* Tampilkan pada tampilan desktop */
+  }
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift the card a bit */
+  background: #ffc400;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+.card a {
+  text-decoration: none; /* Remove the underline from the link */
+  color: inherit; /* Inherit the text color */
+}
+
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-image {
+  height: 200px;
+  object-fit: cover;
+}
