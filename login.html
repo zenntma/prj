@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <title>Halaman Login</title>
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+      .login-container {
+        max-width: 400px;
+        margin: auto;
+        padding: 30px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body class="pt-5">
+    <div class="login-container my-5">
+      <img src="img/logo.png" class="img-fluid mx-auto d-block" style="height: 150px" alt="..." />
+      <h2 class="text-center my-4">Login</h2>
+      <form>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Kata Sandi</label>
+          <input type="password" class="form-control" id="password" placeholder="Masukkan kata sandi Anda" required />
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Login</button>
+      </form>
+      <div class="text-center mt-3">
+        <a href="#">Lupa Kata Sandi?</a>
+      </div>
+      <div class="text-center mt-2">
+        <small>Belum punya akun? <a href="#">Daftar di sini</a></small>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
